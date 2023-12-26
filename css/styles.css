@@ -40,3 +40,12 @@ font-size: 18px;
 line-height: 27px;
 padding: 15px 30px;
 }
+h4{
+    text-align: center;
+    color: #6c63ff;
+    font-size: 35px;
+}
+h4 a{
+    color: #6c63ff;
+    text-align: center;
+}
