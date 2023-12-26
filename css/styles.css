@@ -17,6 +17,12 @@ h5 {
 h1 {
   font-size: 96px;
 }
+h2{
+    font-size: 64px;
+}
+p{
+    line-height: 30px;
+}
 body {
   font-family: var(--second-heading-fontstyle);
   text-align: center;
@@ -56,4 +62,19 @@ h4 {
 h4 a {
   color: var(--branding-color);
   text-align: center;
+}
+.project-info{
+    Margin: 120px 5px 0 50px;
+}
+.btn-branding2{
+    border: 1px solid var(--branding-color);
+  
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.container{
+    background: #1a0577;
 }
