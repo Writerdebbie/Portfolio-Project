@@ -18,7 +18,8 @@ h1 {
   font-size: 96px;
 }
 body {
-  font-family: var(--second-heading-fontstyle)
+  font-family: var(--second-heading-fontstyle);
+  text-align: center;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -48,8 +49,9 @@ body {
 }
 h4 {
   text-align: center;
-  color: var(--branding-color);
-  font-size: 3px;
+  
+  color: white;
+  font-size: 35px;
 }
 h4 a {
   color: var(--branding-color);
