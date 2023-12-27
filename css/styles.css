@@ -41,6 +41,7 @@ p{
 body {
   font-family: var(--second-heading-fontstyle);
   text-align: center;
+  margin-bottom: 10px;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -75,13 +76,14 @@ h4 {
   font-size: 35px;
 }
 h4 a {
-  color: var(--branding-color);
+  color: aquamarine;
   text-align: center;
 }
 .project-info{
     Margin: 50px 5px 0 50px;
     line-height: 35px;
     font-weight: 700;
+    text-align: justify;
 }
 .btn-branding2{
   border: 1px solid var(--branding-color);
@@ -99,8 +101,21 @@ h4 a {
   margin-bottom: 0;
   margin-top: 0;
   color: aquamarine;
+  padding: 10px;
 }
 .container{
     background:#7a6acd78;
     max-width: 100%;
+    margin-bottom: 0;
+}
+.contain{
+  background:var(--branding-color);
+  margin-top: 0;
+}
+footer a{
+  text-decoration: none;
+  opacity: 0.7;
+}
+footer{
+  opacity: 0.8;
 }
