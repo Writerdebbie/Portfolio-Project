@@ -108,6 +108,7 @@ h4 a {
 .gloria{
   width: 500px;
   height: 500px;
+  border-radius: 200px !important;
 }
 footer a{
   text-decoration: none;
@@ -115,4 +116,13 @@ footer a{
 }
 footer{
   opacity: 0.8;
+}
+.aboutpage h2{
+font-size: 20px;
+line-height: 60px;
+}
+.aboutpage h1{
+  font-size: 64px;
+  line-height: 80px;
+
 }
