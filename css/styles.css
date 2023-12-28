@@ -1,15 +1,14 @@
 :root {
-    --branding-color:#6c63ff;
-    --heading-fontstyle:"Playfair Display", serif;
-    --second-heading-fontstyle: "Poppins", sans-serif;
-    --secondary-color:#f9f7;
+  --branding-color: #6c63ff;
+  --heading-fontstyle: "Playfair Display", serif;
+  --second-heading-fontstyle: "Poppins", sans-serif;
+  --secondary-color: #f9f7;
 }
-.toplink a{
+.toplink a {
   text-decoration: none;
   color: var(--branding-color);
   font-size: 18px;
   text-align: start;
- 
 }
 
 h1,
@@ -25,11 +24,11 @@ h5 {
 h1 {
   font-size: 96px;
 }
-h2{
-    font-size: 64px;
+h2 {
+  font-size: 64px;
 }
-p{
-    line-height: 30px;
+p {
+  line-height: 30px;
 }
 body {
   font-family: var(--second-heading-fontstyle);
@@ -38,8 +37,8 @@ body {
 }
 .hero {
   background-color: var(--secondary-color);
-  
-  padding: 50px 20px;
+
+  padding: 150px 20px;
 }
 .hero p {
   font-weight: bold;
@@ -64,7 +63,7 @@ body {
 }
 h4 {
   text-align: center;
-  
+
   color: white;
   font-size: 35px;
 }
@@ -72,13 +71,13 @@ h4 a {
   color: aquamarine;
   text-align: center;
 }
-.project-info{
-    Margin: 50px 5px 0 50px;
-    line-height: 35px;
-    font-weight: 700;
-    text-align: justify;
+.project-info {
+  margin: 50px 5px 0 50px;
+  line-height: 35px;
+  font-weight: 700;
+  text-align: justify;
 }
-.btn-branding2{
+.btn-branding2 {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   color: var(--branding-color);
@@ -86,7 +85,7 @@ h4 a {
   line-height: 27px;
   padding: 15px 30px;
 }
-.middle-page{
+.middle-page {
   background: var(--branding-color);
   line-height: 30px;
   font-size: 20px;
@@ -96,33 +95,62 @@ h4 a {
   color: aquamarine;
   padding: 10px;
 }
-.container{
-    background:#7a6acd78;
-    max-width: 100%;
-    margin-bottom: 0;
+.container {
+  background: #7a6acd78;
+  max-width: 100%;
+  margin-bottom: 0;
 }
-.contain{
-  background:var(--branding-color);
+.contain {
+  background: var(--branding-color);
   margin-top: 0;
 }
-.gloria{
-  width: 500px;
-  height: 500px;
+.gloria {
+  width: 350px;
+  height: 350px;
   border-radius: 200px !important;
+  margin: 0 auto !important;
+  margin-left: 10px !important;
+  padding: 20px !important;
+
 }
-footer a{
+.aboutpage{
+  padding: 150px 20px;
+}
+.aboutpage-content{
+  margin: 30px;
+}
+
+footer a {
   text-decoration: none;
   opacity: 0.7;
 }
-footer{
+footer {
   opacity: 0.8;
 }
-.aboutpage h2{
-font-size: 20px;
-line-height: 60px;
+.aboutpage h2 {
+  font-size: 20px;
+  line-height: 60px;
+  font-family: var(--second-heading-fontstyle);
 }
-.aboutpage h1{
+.aboutpage h1 {
   font-size: 64px;
   line-height: 80px;
-
+}
+.aboutpage p {
+  padding: 10px !important;
+}
+@media (max-width: 900px) {
+  h1{
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2{
+    font-size: 38px;
+  }
+  .hero{
+    padding: 80px 20px;
+  }
+  .aboutpage{
+    padding: 0;
+  }
 }
