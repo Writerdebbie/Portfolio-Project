@@ -130,6 +130,7 @@ footer a {
 footer {
   margin: 60px 0;
 }
+
 .social-link a{
   margin: 10px;
   padding: 3px 8px;
@@ -150,7 +151,7 @@ footer .contact-box{
   
 }
 h3{
-  font-size: 48px;
+  font-size:30px;
 }
 footer p{
   font-size: 24px;
