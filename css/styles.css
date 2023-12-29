@@ -4,6 +4,21 @@
   --second-heading-fontstyle: "Poppins", sans-serif;
   --secondary-color: #f9f7;
 }
+.logo{
+  max-height: 40px;
+}
+.active{
+  color: var(--branding-color) !important;
+}
+.nav-item{
+  padding: 0 15px;
+  line-height: 14px;
+ 
+  
+}
+.navbar-brand{
+  margin-left: 20px;
+}
 .toplink a {
   text-decoration: none;
   color: var(--branding-color);
@@ -38,7 +53,7 @@ body {
 .hero {
   background-color: var(--secondary-color);
 
-  padding: 150px 20px;
+  padding: 40px 20px;
 }
 .hero p {
   font-weight: bold;
@@ -61,16 +76,7 @@ body {
   line-height: 27px;
   padding: 15px 30px;
 }
-h4 {
-  text-align: center;
 
-  color: white;
-  font-size: 35px;
-}
-h4 a {
-  color: aquamarine;
-  text-align: center;
-}
 .project-info {
   margin: 50px 5px 0 50px;
   line-height: 35px;
@@ -100,10 +106,7 @@ h4 a {
   max-width: 100%;
   margin-bottom: 0;
 }
-.contain {
-  background: var(--branding-color);
-  margin-top: 0;
-}
+
 .gloria {
   width: 450px;
   height: 450px;
@@ -125,7 +128,36 @@ footer a {
   opacity: 0.7;
 }
 footer {
-  opacity: 0.8;
+  margin: 60px 0;
+}
+.social-link a{
+  margin: 10px;
+  padding: 3px 8px;
+ font-size: 28px;
+ border-radius: 50%;
+ color: var(--branding-color);
+ background-color: var(--secondary-color);
+ transition: all 100ms ease-in-out;
+}
+.social-link a:hover{
+  color: white;
+  background-color: var(--branding-color);
+}
+footer .contact-box{
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 12px;
+  
+}
+h3{
+  font-size: 48px;
+}
+footer p{
+  font-size: 24px;
+  margin: 0;
+}
+footer .confidential{
+  opacity: 0.7;
 }
 .aboutpage h2 {
   font-size: 20px;
@@ -139,6 +171,50 @@ footer {
 .aboutpage p {
   padding: 10px !important;
 }
+.mywork h1{
+  font-size: 40px;
+  font-family: var(--heading-fontstyle);
+  line-height: 35px;
+  margin: 20px 10px 2px 5px !important;
+}
+.work1 h3{
+  font-family: var(--second-heading-fontstyle);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+}
+.work1 img{
+  border-radius: 30px !important;
+}
+.container3{
+  max-width: 100%;
+  margin: 10px;
+ 
+}
+.contact-content h3{
+  font-family: var(--heading-fontstyle);
+  font-weight: 500;
+}
+.contact-content p{
+  font-size: 20px;
+  font-family: var(--second-heading-fontstyle);
+  font-weight: 400;
+}
+.contact-content h1{
+font-size: 50px;
+line-height: 1;
+}
+.contact-content p a{
+font-size: 24px;
+text-decoration: none;
+color: #000;
+
+}
+
+.contact-content p a:hover{
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1{
     font-size: 44px;
@@ -153,4 +229,29 @@ footer {
   .aboutpage{
     padding: 0;
   }
+  .mywork h1{
+  font-size: 24px;
+  }
+  .contact-content h1{
+font-size: 30px;
+}
+.logo{
+  max-height: 20px;
+}
+footer .btn{
+  margin: 5px 0 !important;
+  padding: 5px !important;
+}
+footer .contact-box{
+  background-color: var(--secondary-color);
+  padding: 10px 30px;
+  border-radius: 12px;
+  margin: 10px;
+}
+footer .contact-box h3{
+  font-size: 20px;
+}
+footer .contact-box p{
+  font-size: 15px;
+}
 }
